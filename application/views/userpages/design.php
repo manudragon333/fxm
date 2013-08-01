@@ -22,64 +22,65 @@
                 </div>
             </div>
             <div class="contentarea p_r">
-                <div class="leftNav p_f tf_animation animation_setting bounceInLeft">
+                <div class="leftNav p_f tf_animation animation_setting fadeInLeft">
                     <ul class="nav_emt">
                         <li><a href="" class="active">Home</a></li>
-                        <li><a href="">Student Data</a></li>
-                        <li><a href="">User Accounts</a></li>
-                        <li><a href="">College Updates</a></li>
-                        <li><a href="">Polls</a></li>
-                        <li><a href="" class="collapse">College Administration</a></li>
+                        <li><a href="">Deposit</a></li>
+                        <li><a href="">Withdrawal</a></li>
+                        <li><a href="" class="collapse j_submenu_toggle">Reports</a></li>
                         <ul class="lft_sub_menu">
                             <li>
-                               <a href=""> College management </a>
+                               <a href=""> Trading History </a>
                             </li>
                             <li>
-                                <a href=""> Course management </a>
+                                <a href=""> Open positions </a>
                             </li>
                             <li>
-                                <a href=""> Branch management </a>
-                            </li>
-                            <li>
-                                <a href=""> Semester management </a>
-                            </li>
-                            <li>
-                                <a href=""> Subject management </a>
-                            </li>
-                            <li>
-                                <a href=""> Period Cycle management </a>
-                            </li>
-                            <li>
-                                <a href=""> Attendance management </a>
-                            </li>
-                            <li>
-                                <a href=""> Teaching Years </a>
-                            </li>
-                            <li>
-                                <a href=""> Section management </a>
-                            </li>
-                            <li>
-                                <a href=""> Batch No management </a>
-                            </li>
-                            <li>
-                                <a href=""> Calendar Items </a>
-                            </li>
-                            <li>
-                               <a href=""> Academic Calendar </a>
-                            </li>
-                            <li>
-                               <a href=""> Send Message </a>
+                                <a href=""> Deposits/Withdrawals </a>
                             </li>
                         </ul>
-                        <li><a href="">Email</a></li>
+                        <li><a href="" class="collapse j_submenu_toggle">My Account</a></li>
+                        <ul class="lft_sub_menu">
+                            <li>
+                               <a href=""> Change Leverage </a>
+                            </li>
+                            <li>
+                                <a href=""> Internal Transfer </a>
+                            </li>
+                        </ul>
 
                     </ul>
                 </div>
                 <div class="rightNav">
-                    <div class="rightNav_head">Header</div>
+                    <div class="rightNav_head">Home</div>
                     <div class="rightNav_cnt">
+
+                         <table class="data">
+                            <thead>
+                                <tr>
+                                    <th>Month</th>
+                                    <th>Savings</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>January</td>
+                                    <td>$100</td>
+                                </tr>
+                                <tr>
+                                    <td>January</td>
+                                    <td>$100</td>
+                                </tr>
+                                <tr>
+                                    <td>January</td>
+                                    <td>$100</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <div class="grid-msg">No Open Positions</div>
                         
-                        
+                        <br/>
 
                          <a class="button grey">Grey</a>
                          <a class="button red">red</a>
@@ -90,11 +91,20 @@
                          <a class="button purple">purple</a>
                          <a class="button gblue">gblue</a>
 
-
                     </div>
                 </div>
-            </div>
+            </div> 
+            <div id="footer" class="p_f bounceInUp animation_setting">
+                <a href="">Site Map</a>
+                <a href="">Contact us</a>
+            </div>    
         </div>    
-        <div id="footer"></div>    
+        
     </body>
+    <script type="text/javascript">
+            $('.j_submenu_toggle').live('click',function(){
+                $(this).next('.lft_sub_menu').slideToggle();
+                $(this).toggleClass('right-arrow');
+            });
+    </script>
 </html>

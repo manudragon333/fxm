@@ -146,6 +146,7 @@ q:before, q:after {
 }
 table {
 	border-collapse: collapse;
+  border-spacing: 0;
 }
 
 body {
@@ -328,4 +329,15 @@ a {
   top: 50%;
   margin-top: -16px;
   margin-left: -16px;
+}
+
+::-moz-selection{
+  background:#004080;
+  color:#fff;
+  text-shadow:none
+}
+::selection{
+  background:#004080;
+  color:#fff;
+  text-shadow:none
 }
