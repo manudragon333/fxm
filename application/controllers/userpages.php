@@ -21,6 +21,10 @@ class Userpages extends MY_Controller {
         $this->load->view('userpages/account_history');
     }
     
+    public function design() {
+        $this->load->view('userpages/design');
+    }
+    
     
 
 }
