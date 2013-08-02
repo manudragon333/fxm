@@ -25,6 +25,9 @@ class Userpages extends MY_Controller {
         $this->load->view('userpages/design');
     }
     
+    public function homenew() {
+        $this->load->view('userpages/homenew');
+    }
     
 
 }

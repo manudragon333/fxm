@@ -1,5 +1,6 @@
 /* CSS Resets */
 .app {background: url(../images/fabric-patterns-03.png) repeat}
+/*.app { background: url(../images/whttex.jpg) repeat;}*/
 .app .header{
 	height: 42px;
 	background: url(../images/noise.png) #414141 repeat;
@@ -276,4 +277,13 @@
 
 /*End@@code for the Table*/
 
-
+.app .hdr1{ font-size: 16px}
+.app .hdr2{ font-size: 14px}
+.app .sum_box{
+	background: #FFF;
+	padding: 20px;
+	border: 1px solid #ddd;
+}
+.app .sum_box .box{ width: 300px; margin-top: 10px}
+.app .sum_box div div{ color: #727272; font-size: 16px;  }
+.app .sum_box div div.rgt_fld{ color: #b8322e; margin-top: 4px; font-weight: bold; }
