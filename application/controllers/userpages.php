@@ -36,6 +36,10 @@ class Userpages extends MY_Controller {
     public function depositnew_text() {
         $this->load->view('userpages/depositnew_text');
     }
+
+    public function withdrawalnew() {
+        $this->load->view('userpages/withdrawalnew');
+    }
     
 
 }
