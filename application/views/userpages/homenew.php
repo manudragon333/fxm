@@ -134,10 +134,6 @@
                             </tbody>
                         </table>
 
-                        
-                        
-                        <br/>
-
                          <a class="button grey">Grey</a>
                          <a class="button red">red</a>
                          <a class="button blue">blue</a>

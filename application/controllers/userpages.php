@@ -28,6 +28,14 @@ class Userpages extends MY_Controller {
     public function homenew() {
         $this->load->view('userpages/homenew');
     }
+
+    public function depositnew() {
+        $this->load->view('userpages/depositnew');
+    }
+
+    public function depositnew_text() {
+        $this->load->view('userpages/depositnew_text');
+    }
     
 
 }
