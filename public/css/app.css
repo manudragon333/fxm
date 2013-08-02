@@ -281,7 +281,7 @@
 .app .hdr2{ font-size: 14px}
 .app .sum_box{
 	background: #FFF;
-	padding: 20px;
+	padding: 10px 20px 20px;
 	border: 1px solid #ddd;
 }
 .app .sum_box .box{ width: 300px; margin-top: 10px}
