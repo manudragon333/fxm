@@ -41,5 +41,8 @@ class Userpages extends MY_Controller {
         $this->load->view('userpages/withdrawalnew');
     }
     
+    public function withdrawalnewform() {
+        $this->load->view('userpages/withdrawalnewform');
+    }
 
 }
