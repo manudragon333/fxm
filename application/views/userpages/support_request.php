@@ -24,22 +24,25 @@
                     
                         <div class="o_h sum_box r_f m_t_20">
                             <form method="post" action="<?php echo site_url('contact_us/save_cs'); ?>" class="j_general_validate">
+                                
                                 <input type="hidden" class="hide" name="page" value="support_request" />
                                 <div class="log_bankdet col_blk ">
                                     Please enter your message below:
                                 </div>
+                                
+                                <div class="m_t_10">
+                                    <select name="department_id" class="sl_bx r_f required" title="Please select a department">
+                                        <?php echo selectBox('Select Department', 'departments', 'id,name', '', 0, ''); ?>
+                                    </select>
+                                </div>
 
-                                <select name="department_id" class="sl_bx r_f m_t_10 required" title="Please select a department">
-                                    <?php echo selectBox('Select Department', 'departments', 'id,name', '', 0, ''); ?>
-                                </select>
-                                <br/>
+                                <div class="m_t_10">
+                                    <input type="text" class="ip r_f required" placeholder="Subject" title="Please enter a Subject" />
+                                </div>
 
-
-                                <input type="text" class="ip r_f m_t_10 required" placeholder="Subject" title="Please enter a Subject" />
-                                <br/>
-
-                                <textarea class="t_ar m_t_10 r_f required" placeholder="Enter your message" title="Enter your message"></textarea>
-                                <br/>
+                                <div class="m_t_10">
+                                    <textarea class="t_ar  r_f required" placeholder="Enter your message" title="Enter your message"></textarea>
+                                </div>
 
                                 <a class="button yellow m_t_20 cur_def j_general_submit">Submit</a>
                                 <?php echo formtoken::getField(); ?>

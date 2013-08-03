@@ -192,7 +192,8 @@
 .app div.error{ 
     clear: both;
     color:#bf1c12; 
-    margin: 2px 0 0 200px;
+    font-size: 13px !important;
+    margin: 2px 0 0;
     text-shadow:0 0 2px #F16181
 }
 
