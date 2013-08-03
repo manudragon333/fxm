@@ -11,7 +11,6 @@
         <!-- @@ START, FILE UPLOADER FILES-->
         
         <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>public/css/file_uploader/jquery.fileupload-ui.css" />
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>misc/widgets/css/bootstrap.min.css" />
         
         <script src="<?php echo base_url(); ?>public/js/file_uploader/jquery.ui.widget.js"></script>
         <script src="<?php echo base_url(); ?>public/js/file_uploader/jquery.fileupload.js"></script>
@@ -141,27 +140,25 @@
                         <p  class="help_text">ForexRay is legally required to hold on record (to file) the necessary documentation in support of your application. Trading access and/or withdrawals will not be permitted until your documents have been received and verified.</p>
                         <p  class="help_text m_t_20">Please scan and upload the documentation specified below.</p>
                         <p  class="help_text">Accepted file formats: .GIF, .JPG, .PNG, .PDF</p>
-                        
+                                               
+                        <form method="post" action="<?php echo site_url('userpages/validation_documents'); ?>" class="" >
+
                         <div class="hdr2 f_b m_b_10 m_t_40">PROOF OF IDENTITY:</div>
                         
-                        <div class="o_h sum_box r_f m_t_20">
-
-                            <span class="btn btn-success  fileinput-button ">
-                                <i class="icon-plus icon-white"></i>
-                                <span>Select files...</span>
-                                <!-- The file input field used as target for the file upload widget -->
-                                <input id="fileupload" type="file" name="files[]" multiple>
-                            </span>
-                            <br/><br/>
-                            <!-- The global progress bar -->
-                            <div id="progress" class="progress progress-success progress-striped hide">
-                                <div class="bar"></div>
-                            </div>
-                             <!-- The container for the uploaded files -->
-                            <div id="files" class="files reset_alert"></div>
-
+                        <span class="  fileinput-button button green">
+                            <span><span class="plus ">+</span> Select files...</span>
+                            <!-- The file input field used as target for the file upload widget -->
+                            <input id="fileupload" type="file" name="files[]" multiple>
+                        </span>
+                        <br/><br/>
+                        <!-- The global progress bar -->
+                        <div id="progress" class="progress progress-success progress-striped hide">
+                            <div class="bar"></div>
                         </div>
-                        <p  class="help_text">A copy of valid passport or other official state ID (e.g. driver's license, identity card, etc). The ID must be valid and contain the client's full name, an issue or expiry date, the client's place and date of birth OR tax identification number and the client's signature.</p>
+                         <!-- The container for the uploaded files -->
+                        <div id="files" class="files reset_alert"></div>
+
+                        <p  class="help_text m_t_10">A copy of valid passport or other official state ID (e.g. driver's license, identity card, etc). The ID must be valid and contain the client's full name, an issue or expiry date, the client's place and date of birth OR tax identification number and the client's signature.</p>
                         
                         
                         <div class="hdr2 f_b m_b_10 m_t_40">PROOF OF RESIDENCY:</div>
@@ -173,30 +170,23 @@
 
                         </div>-->
                         
-                        <div class="o_h sum_box r_f m_t_20">
-                            <span class="btn btn-success  fileinput-button ">
-                                <i class="icon-plus icon-white"></i>
-                                <span>Select files...</span>
-                                <!-- The file input field used as target for the file upload widget -->
-                                <input id="fileupload_2" type="file" name="files[]" multiple>
-                            </span>
-                            <br/><br/>
-                            <!-- The global progress bar -->
-                            <div id="progress_2" class="progress progress-success progress-striped hide">
-                                <div class="bar"></div>
-                            </div>
-                             <!-- The container for the uploaded files -->
-                            <div id="files_2" class="files reset_alert"></div>
+                        <span class="  fileinput-button button green">
+                            <span><span class="plus ">+</span> Select files...</span>
+                            <!-- The file input field used as target for the file upload widget -->
+                            <input id="fileupload_2" type="file" name="files[]" multiple>
+                        </span>
+                        <br/><br/>
+                        <!-- The global progress bar -->
+                        <div id="progress_2" class="progress progress-success progress-striped hide">
+                            <div class="bar"></div>
                         </div>
-                        <p class="help_text">A recent utility bill (e.g. electricity, gas, water, phone, oil, Internet and/or cable TV connections) dated within the last 3 months confirming your registered address.</p>
+                         <!-- The container for the uploaded files -->
+                        <div id="files_2" class="files reset_alert"></div>
                         
+                        <p class="help_text m_t_10">A recent utility bill (e.g. electricity, gas, water, phone, oil, Internet and/or cable TV connections) dated within the last 3 months confirming your registered address.</p>
                         
-                        <div class="o_h sum_box r_f m_t_20 m_b_10">
+                        <a class="button yellow m_t_20 cur_def j_upload_docs">Upload your documents</a>
 
-                            <a class="button yellow m_t_20 cur_def">Upload your documents</a>
-
-                        </div>
-                        
                     </div>
                 </div>
             </div> 
