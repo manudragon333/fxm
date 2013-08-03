@@ -26,7 +26,7 @@
                                 Please enter your message below:
                             </div>
 
-                            <input type="text" class="ip r_f m_t_20" />
+                            <input type="text" class="ip r_f m_t_10" />
                             <br/>
 
                             <a class="button yellow m_t_20 cur_def">Submit</a>
