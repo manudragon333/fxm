@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <title>ForexRay Home</title>
+        <title></title>
         <?php $this->load->view('common/userpages/head_links_new'); ?>
     </head>
     <body class="app">
@@ -17,7 +17,47 @@
                     <div class="rightNav_head">Home</div>
                     <div class="rightNav_cnt">
                          
-                         <div class="hdr1 f_b m_b_10">Account Verification</div>
+<!--                         START @@ PAGE CONTENT-->
+                        
+                            <table class="data">
+                            <thead>
+                                <tr>
+                                    <th>Month</th>
+                                    <th>Savings</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>January</td>
+                                    <td>$100</td>
+                                </tr>
+                                <tr>
+                                    <td>January</td>
+                                    <td>$100</td>
+                                </tr>
+                                <tr>
+                                    <td>January</td>
+                                    <td>$100</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <div class="grid-msg">No Open Positions</div>
+                        
+                        <br/>
+
+                         <a class="button grey">Grey</a>
+                         <a class="button red">red</a>
+                         <a class="button blue">blue</a>
+                         <a class="button green">green</a>
+                         <a class="button black">black</a>
+                         <a class="button yellow">yellow</a>
+                         <a class="button purple">purple</a>
+                         <a class="button gblue">gblue</a>
+                         
+                         <br/><br/>
+
+                         <div class="hdr1 f_b m_b_10">Your Content</div>
 
                          <div class="m_b_10 reset_alert">
                             <div class="alert_success">Your Account is validated</div>
@@ -103,6 +143,9 @@
                             </tbody>
                         </table>
 
+                        
+<!--                         END @@ PAGE CONTENT-->
+                        
                     </div>
                 </div>
             </div> 
