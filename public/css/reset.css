@@ -192,7 +192,7 @@ a {
 .m_t_b_10{ margin:  10px 0}
 .m-l-20{ margin-left: 20px }
 .col_blk{ color: #000}
-.cue_def{ cursor: default;}
+.cur_def{ cursor: default;}
 .app .cb, .c_b {
   clear: both;
   height: 0;
