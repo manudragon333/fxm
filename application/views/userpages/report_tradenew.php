@@ -55,27 +55,49 @@
                     <div class="rightNav_head">Home</div>
                     <div class="rightNav_cnt">
                        
-                        <div class="hdr1 f_b m_b_10">Withdraw Funds - Credit/Debit Card</div>
+                        <div class="hdr1 f_b m_b_10">Funding History</div>
 
-                        <div class="hdr2 f_b m_b_10 m_t_40">CREDIT/DEBIT CARD WITHDRAWAL</div>
-                        <p  class="help_text">Please complete the form below to request a withdrawal. XM will contact you if any further information is required. Kindly note that this is a request for withdrawal and not an automated function. The payment will be completed within 2 - 5 working days.</p>
-
-                        <div class="o_h sum_box r_f m_t_20">
-
-                            <div class="log_bankdet">
-                                <label>XM Account ID:</label> <b class="col_blk">2134627</b>
-                                <br/>
-                                <label>XM Account Name:</label> <b class="col_blk">Nagoor Basha Shaik</b>
-                            </div>
-                            <input type="text" class="ip r_f m_t_20" />
-                            <br/>
-                            <a class="button yellow m_t_20 cue_def">Request</a>
-
+                        <div class="o_h sum_box fund_date r_f m_t_20">
+                            <ul>
+                                <li><div class="lbl">Date from:</div></li>
+                                <li><input type="text" class="ip r_f"></li>
+                                <li><div class="lbl">To:</div></li>
+                                <li><input type="text" class="ip r_f"></li>
+                                <li class="butadj"><a class="button yellow cur_def">Generate Report</a></li>
+                            </ul>
                         </div>
 
-                        <div class="hdr2 f_b m_b_10 m_t_40">PAYMENT PROTECTION AND DATA SECURITY</div>
-                        <p  class="help_text">Please note that XM does not receive and/or store any personal credit card or payment information. All transactions are processed and protected by Level 1 PCI-DSS Certified Independent International Payment Gateways.</p>
-                        
+
+                        <table class="data m_t_40 datagrid ">
+                            <thead>
+                               <tr role="row">
+                                    <th rowspan="2" style="width: 56px;" colspan="1">Order</th>
+                                    <th rowspan="2" style="width: 48px;" colspan="1">Type</th>
+                                    <th rowspan="2" colspan="1" style="width: 70px;">Symbol</th>
+                                    <th rowspan="2" style="width: 45px;" colspan="1">Lots</th>
+                                    <th colspan="2" rowspan="1">Opening</th>
+                                    <th rowspan="2" style="width: 30px;" colspan="1">TP</th>
+                                    <th rowspan="2" style="width: 30px;" colspan="1">SL</th>
+                                    <th colspan="2" rowspan="1">Closing</th>
+                                    <th rowspan="2" style="width: 115px;" colspan="1">Commisions</th>
+                                    <th rowspan="2" style="width: 66px;" colspan="1">Swaps</th>
+                                    <th rowspan="2" style="width: 35px;" colspan="1">P/L</th>
+                               </tr>
+                                <tr role="row">
+                                    <th style="width: 49px;" colspan="1">Time</th>
+                                    <th style="width: 52px;" rowspan="1" colspan="1">Price</th>
+                                    <th style="width: 49px;" rowspan="1" colspan="1">Time</th>
+                                    <th style="width: 52px;" rowspan="1" colspan="1">Price</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                   <td valign="top" colspan="13" class="dataTables_empty"><div class="grid-msg">No Results</div></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+
                     </div>
                 </div>
             </div> 

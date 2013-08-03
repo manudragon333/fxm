@@ -55,27 +55,37 @@
                     <div class="rightNav_head">Home</div>
                     <div class="rightNav_cnt">
                        
-                        <div class="hdr1 f_b m_b_10">Withdraw Funds - Credit/Debit Card</div>
+                        <div class="hdr1 f_b m_b_10">Funding History</div>
 
-                        <div class="hdr2 f_b m_b_10 m_t_40">CREDIT/DEBIT CARD WITHDRAWAL</div>
-                        <p  class="help_text">Please complete the form below to request a withdrawal. XM will contact you if any further information is required. Kindly note that this is a request for withdrawal and not an automated function. The payment will be completed within 2 - 5 working days.</p>
-
-                        <div class="o_h sum_box r_f m_t_20">
-
-                            <div class="log_bankdet">
-                                <label>XM Account ID:</label> <b class="col_blk">2134627</b>
-                                <br/>
-                                <label>XM Account Name:</label> <b class="col_blk">Nagoor Basha Shaik</b>
-                            </div>
-                            <input type="text" class="ip r_f m_t_20" />
-                            <br/>
-                            <a class="button yellow m_t_20 cue_def">Request</a>
-
+                        <div class="o_h sum_box fund_date r_f m_t_20">
+                            <ul>
+                                <li><div class="lbl">Date from:</div></li>
+                                <li><input type="text" class="ip r_f"></li>
+                                <li><div class="lbl">To:</div></li>
+                                <li><input type="text" class="ip r_f"></li>
+                                <li class="butadj"><a class="button yellow cur_def">Generate Report</a></li>
+                            </ul>
                         </div>
 
-                        <div class="hdr2 f_b m_b_10 m_t_40">PAYMENT PROTECTION AND DATA SECURITY</div>
-                        <p  class="help_text">Please note that XM does not receive and/or store any personal credit card or payment information. All transactions are processed and protected by Level 1 PCI-DSS Certified Independent International Payment Gateways.</p>
-                        
+
+                        <table class="data m_t_40">
+                            <thead>
+                                <tr>
+                                    <th>Trans#</th>
+                                    <th>Time</th>
+                                    <th>Type</th>
+                                    <th>Amount</th>
+                                    <th>Comments</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                   <td valign="top" colspan="5" class="dataTables_empty"><div class="grid-msg">No Results</div></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+
                     </div>
                 </div>
             </div> 

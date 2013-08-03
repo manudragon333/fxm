@@ -45,4 +45,12 @@ class Userpages extends MY_Controller {
         $this->load->view('userpages/withdrawalnewform');
     }
 
+    public function report_fundsnew() {
+        $this->load->view('userpages/report_fundsnew');
+    }
+
+    public function report_tradenew() {
+        $this->load->view('userpages/report_tradenew');
+    }
+
 }

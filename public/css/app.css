@@ -84,15 +84,13 @@
 .app .rightNav .rightNav_head{
 	background: url(../images/noise.png) #707379 repeat;
 	height: 28px;
-	color: #FFEDB2;
+	color: #fff;
 	font-size: 16px;
 	text-align: center;
 	font-weight: bold;
 	padding-top: 10px;
 	border-bottom: 1px solid #979797;
-	/*-moz-box-shadow: 0 1px 0 #FAFAFA;
-	-weblit-box-shadow: 0 1px 0 #FAFAFA;
-	box-shadow: 0 1px 0 #FAFAFA;*/
+	text-shadow: 0 1px 0 #111;
 }
 .app .rightNav .rightNav_cnt { padding: 20px 20px 0 20px}
 .app #footer{ 
@@ -261,6 +259,16 @@
 .app table.data tbody tr.last td, .app table.data tbody tr.last th { border-bottom: 0; }
 .app table.data tbody tr:last-child td, .app table.data tbody tr:last-child th { border-bottom: 0; }
 
+.app table.datagrid th {
+	height: auto;
+	border-color: #B2B2B2;
+}
+.app table.datagrid th {
+	font-size: 12px;
+	color: #2F2F2F;
+	background: #C6C6C6 url(../images/th-grad2.png) repeat-x;
+}
+
 .app .grid-msg {
 	width: 250px;
 	color: #666;
@@ -276,7 +284,7 @@
 }
 
 /*End@@code for the Table*/
-
+.app .hdr1, .app .hdr2{ color: #FFEDB2}
 .app .hdr1{ font-size: 16px}
 .app .hdr2{ font-size: 14px}
 .app .sum_box{
@@ -304,3 +312,14 @@
 .app .moneygram{background: url(../images/moneygram.png) #fff no-repeat 100% 8px;}
 .app .wstun{background: url(../images/westernunion.png) #fff no-repeat 100% 6px;}
 .app .help_text{ color: #CACACA}
+
+.app .fund_date ul li {
+	float: left;
+	margin: 5px 7px;
+	background-image: none;
+}
+.app .fund_date ul li.butadj{ margin: 0 7px}
+.app .fund_date .lbl {
+	padding-top: 4px;
+	margin-top: 5px;
+}
