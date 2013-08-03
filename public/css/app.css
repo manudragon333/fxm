@@ -71,10 +71,11 @@
 .app .leftNav li a{ 
 	margin-bottom: 10px; 
 	display: block;
-	color: #B3E4FF; 
+	/*color: #B3E4FF; */
+	color: #dedede; 
 }
-.app .leftNav li a:hover{ color: #7ED1FF;}
-.app .leftNav li a:active{ color: #C5EAFF;}
+.app .leftNav li a:hover{ /*#7ED1FF;*/ color: #fff}
+.app .leftNav li a:active{ /*color: #C5EAFF;*/ color: #eee}
 .app .leftNav li a.active{ color: #F1D169; font-weight: bold;}
 .app .leftNav li a.collapse{ background: url(../images/down.png) no-repeat 180px 0}
 .app .leftNav li a.right-arrow{ background: url(../images/right-arrow.png) no-repeat 180px 0}

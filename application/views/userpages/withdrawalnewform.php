@@ -69,7 +69,7 @@
                             </div>
                             <input type="text" class="ip r_f m_t_20" />
                             <br/>
-                            <a class="button yellow m_t_20 cue_def">Request</a>
+                            <a class="button yellow m_t_20 cur_def">Request</a>
 
                         </div>
 
