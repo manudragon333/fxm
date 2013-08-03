@@ -69,6 +69,9 @@
                             </div>
                             <input type="text" class="ip r_f m_t_20" />
                             <br/>
+                            <textarea class="t_ar m_t_10 r_f"></textarea>
+                            <br/>
+                            
                             <a class="button yellow m_t_20 cur_def">Request</a>
 
                         </div>

@@ -53,4 +53,18 @@ class Userpages extends MY_Controller {
         $this->load->view('userpages/report_tradenew');
     }
 
+    public function upload_documents() {
+        $this->load->view('userpages/upload_documents');
+    }
+    
+    public function upload_documents_handler(){
+        // error_reporting(E_ALL | E_STRICT);
+        $uploadOptions=array(
+            'max_file_size'=>(1 * 1024 * 1024),
+            'accept_file_types'=>'/.(gif|jpe?g|png|pdf|doc|docx|ppt|pptx|xls|xlsx|csv|zip)$/i'
+        );
+        $this->load->library('JQ_UploadHandler',$uploadOptions);
+        // $upload_handler = new UploadHandler();
+    }
+    
 }

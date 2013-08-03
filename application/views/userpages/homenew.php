@@ -54,7 +54,14 @@
                 <div class="rightNav">
                     <div class="rightNav_head">Home</div>
                     <div class="rightNav_cnt">
+                         
+                         <div class="hdr1 f_b m_b_10">Account Verification</div>
 
+                         <div class="m_b_10 reset_alert">
+                            <div class="alert_success">Your Account is validated</div>
+                            <div class="alert_error">Your Account is not validated</div>
+                         </div>
+                        
                          <div class="hdr1 f_b m_b_10">Account Summary (USD)</div>
 
                          <div class="o_h sum_box r_f">
