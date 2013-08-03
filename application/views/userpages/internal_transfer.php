@@ -29,7 +29,7 @@
                                 <br/>
                                 <label>XM Account Name:</label> <b class="col_blk">Nagoor Basha Shaik</b>
                             </div>
-                            <div class="hdr2 f_b m_b_10 m_t_20">Deposit To:</div>
+                            <div class=" col_blk f_14 f_b  m_t_20">Deposit To:</div>
                             <input type="text" class="ip r_f m_t_20" />
                             <br/>
                             

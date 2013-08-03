@@ -81,7 +81,7 @@
                                 <div class="bar"></div>
                             </div>
                              <!-- The container for the uploaded files -->
-                            <div id="files" class="files reset_alert"></div>
+                            <div id="files" class="files reset_alert col_blk"></div>
                             
                             <a class="button yellow m_t_20 cur_def">Upload your documents</a>
                         </div>

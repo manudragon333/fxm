@@ -20,7 +20,7 @@
                         <div class="hdr1 f_b m_b_10">Trading Signals</div>
 
                         
-                        <div>Comming Soon....</div>
+                        <div>To Be Announced....</div>
                         
                     </div>
                 </div>

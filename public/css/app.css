@@ -324,7 +324,7 @@
 	padding-top: 4px;
 	margin-top: 5px;
 }
-
+.app .fund_date input.ip { width: 120px; }
 .app .plus{
     font-weight: bold;
     font-size: 18px;
@@ -392,3 +392,7 @@
 
 
 /* END @@ Progress bar Strip */
+
+.app input.ip{ width: 300px; }
+.app select.sl_bx{ width: 310px; }
+.app textarea.t_ar{ width: 300px; }

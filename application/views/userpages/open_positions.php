@@ -20,7 +20,7 @@
                         <div class="hdr1 f_b m_b_10">Open Positions</div>
 
 
-                        <table class="data m_t_40">
+                        <table class="data m_t_10">
                             <thead>
                                 <tr>
                                     <th>Order#</th>
@@ -42,10 +42,10 @@
                         </table>
 
                         
-                        <div class="hdr1 f_b m_b_10">Pending Orders</div>
+                        <div class="hdr1 f_b m_b_10 m_t_40">Pending Orders</div>
 
 
-                        <table class="data m_t_40">
+                        <table class="data m_t_10">
                             <thead>
                                 <tr>
                                     <th>Order#</th>
