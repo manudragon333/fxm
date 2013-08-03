@@ -22,10 +22,10 @@
 
                         <div class="o_h sum_box r_f m_t_20">
 
-                            <div class="log_bankdet">
-                                <label>Select a leverage:</label> 
-                                <br/>
+                            <div class="log_bankdet col_blk ">
+                                Please enter your message below:
                             </div>
+
                             <input type="text" class="ip r_f m_t_20" />
                             <br/>
 
