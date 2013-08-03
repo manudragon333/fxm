@@ -55,7 +55,7 @@
                     <div class="rightNav_head">Home</div>
                     <div class="rightNav_cnt">
                        
-                        <div class="hdr1 f_b m_b_10">Funding History</div>
+                        <div class="hdr1 f_b m_b_10">Trading History</div>
 
                         <div class="o_h sum_box fund_date r_f m_t_20">
                             <ul>
